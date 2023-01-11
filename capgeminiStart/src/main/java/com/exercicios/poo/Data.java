@@ -34,8 +34,6 @@ public class Data implements Cloneable {
         private String data;
         LocalDate date;
         
-        GregorianCalendar gc = new GregorianCalendar();
-        
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         
     public Data(String data){
